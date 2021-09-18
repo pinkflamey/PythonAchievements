@@ -9,14 +9,24 @@ moneyInAccount = 1300
 # Mijn naam erwin henraat is en ik een baan heb.
 # Of als ik meer dan 10000 euro op mijn rekening heb staan.
 
+def buyABrandNewMotorcycle():
+    print(":)")
 
-if name == "erwin henraat" ** job != None ** moneyInAccount > 10000:
+if name == "erwin henraat" and job != None or moneyInAccount > 10000:
     buyABrandNewMotorcycle()
 
 
-def buyABrandNewMotorcycle():
-    for index in range(100):
-        print(":)")
-
-
 #Maak nu voor jezelf ook een logische voorwaarde waarin je de operatoren 'and' en 'or' gebruikt.
+
+# Mijn take:
+
+hungry = True
+bellyfull = True
+food = "pepernoten"
+
+if hungry == True and bellyfull == False or food == "pepernoten":
+    print("*eats " + food + "*")
+
+    # Ik eet wanneer:
+    # - Ik trek heb (hungry = true) en mijn buik leeg is (bellyfull = false)
+    # - Het eten pepernoten is
