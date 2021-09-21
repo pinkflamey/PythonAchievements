@@ -1,0 +1,1 @@
+python -i mylogicaloperations.py
