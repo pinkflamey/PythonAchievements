@@ -1,6 +1,6 @@
 
 
-Character1 = chr(97)
+Character1 = 'c'
 
 Float1 = 420.69
 
