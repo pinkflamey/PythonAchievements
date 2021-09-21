@@ -30,5 +30,3 @@ if hungry == True and bellyfull == False or food == "pepernoten":
 # Ik eet wanneer:
 # - Ik trek heb (hungry = true) en mijn buik leeg is (bellyfull = false)
 # - Het eten pepernoten is
-
-input=("Press enter to quit")
