@@ -27,8 +27,8 @@ food = "pepernoten"
 if hungry == True and bellyfull == False or food == "pepernoten":
     print("*eats " + food + "*")
 
-    # Ik eet wanneer:
-    # - Ik trek heb (hungry = true) en mijn buik leeg is (bellyfull = false)
-    # - Het eten pepernoten is
+# Ik eet wanneer:
+# - Ik trek heb (hungry = true) en mijn buik leeg is (bellyfull = false)
+# - Het eten pepernoten is
 
-dont_quit = input=("Press enter to quit")
+input=("Press enter to quit")
