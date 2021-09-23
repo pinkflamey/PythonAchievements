@@ -15,3 +15,5 @@ print(*laatste_woord, sep=" + ")
 tekst = "Het www is ontwikkeld vanaf 1989 door Tim Berners-Lee"
 chars = [tekst[5:9], tekst[29:34]]
 print(*chars, sep=" + ")
+
+input("\n\nPress enter to quit...")
