@@ -1,13 +1,4 @@
-from sys import platform
-from os import system
 
-def clearScreen(): # Clears the screen for Windows, Mac and Linux
-    if platform == "win32":
-        system('cls')
-    else:
-        system('clear')
-
-clearScreen()
 
 name = "erwin henraat"
 job = "teacher"
@@ -29,6 +20,7 @@ if name == "erwin henraat" and job != None or moneyInAccount > 10000:
 #Maak nu voor jezelf ook een logische voorwaarde waarin je de operatoren 'and' en 'or' gebruikt.
 
 # Mijn take:
+
 
 hungry = True
 bellyfull = True
