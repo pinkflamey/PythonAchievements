@@ -14,3 +14,5 @@ for word in strlist:
         print(stutword1[0:1] + "... " + stutword1 + "... " + word, end=" ")
     else:
         print (word, end=" ")
+
+input("\n\nPress enter to quit...")
