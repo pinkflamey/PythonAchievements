@@ -36,6 +36,10 @@ food = "pepernoten"
 
 if hungry == True and bellyfull == False or food == "pepernoten":
     print("*eats " + food + "*")
+else:
+    print("I dont't feel like eating!")
+
+input("\n\nPress enter to quit...")
 
 # Ik eet wanneer:
 # - Ik trek heb (hungry = true) en mijn buik leeg is (bellyfull = false)
