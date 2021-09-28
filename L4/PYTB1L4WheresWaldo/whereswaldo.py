@@ -25,6 +25,7 @@ sleep(2)
 clearScreen()
 
 found = False
+searched_people = 0
 
 for name in people: # For all people in the list,
     if name == missing: # If the name is the same as the missing name:
@@ -32,9 +33,16 @@ for name in people: # For all people in the list,
         found = True # Tells the script the missing person is found
         break # Exit the for loop
     print(name) # If the person was not missing, print their name and continue
+    searched_people = searched_people + 1
     sleep(1)
+    
+missing_position = searched_people + 1
 
-if found == False: # If the missing person was not found:s
+print("I've searched " + str(searched_people) + " people!")
+
+if found == True:
+    print("That means " + missing + " was the " + str(missing_position) + "st/nd/th person I've searched!")
+else:
     print("I couldn't find " + missing + "...")
 
 input("\n\nPress enter to quit...")
