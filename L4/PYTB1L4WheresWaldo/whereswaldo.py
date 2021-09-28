@@ -38,6 +38,9 @@ for name in people: # For all people in the list,
     
 missing_position = searched_people + 1
 
+sleep(2)
+clearScreen()
+
 print("I've searched " + str(searched_people) + " people!")
 
 if found == True:
